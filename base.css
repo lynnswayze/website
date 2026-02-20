@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 html {
-  background-color: #eee;              /* Neutral background to contrast with the page. */
+  background-color: #fdfdfc;              /* Neutral background to contrast with the page. */
   color: var(--color-text);            /* Slightly less "harsh" black; looks subtly better. */
   tab-size: 4;                         /* Tab size of 4 is probably more common in editors etc. */
 }
@@ -197,7 +197,7 @@ a,
 a code,                                /* Otherwise it would just stay black text; common enough to include here. */
 summary,                               /* <summary> doesn't look very clickable by default. */
 .link {
-  color: #00f;                         /* Make sure colour is the same in all browsers. */
+  color: rgb(92, 41, 0);                         /* Make sure colour is the same in all browsers. */
   text-decoration: none;               /* Underlining can look "busy"; the colour on its own should be enough. */
   transition: color .2s;               /* Animate the change in colour effect on hover; subtle but noticeable. */
   cursor: pointer;                     /* Always use pointer; otherwise <a> w/o href shows as text selection. */
