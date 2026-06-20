@@ -1,8 +1,8 @@
 /*** Variables ***/
 :root {
-  --width-body:   45rem;   /* Width of main body text. */
-  --pad-x:        4rem;    /* Padding to the side of the body. */
-  --pad-y:        1rem;    /* Padding to the top and bottom of the body. */
+  --width-body:   50rem;   /* Width of main body text. */
+  --pad-x:        5rem;    /* Padding to the side of the body. */
+  --pad-y:        5rem;    /* Padding to the top and bottom of the body. */
   --color-bg:     #fff;    /* Background colour of main body text. */
   --color-text:   #252525; /* Colour of main body text. */
   --color-border: #aaa;    /* Border colour for table, fieldset, input. */
@@ -31,7 +31,7 @@
 }
 
 /* Even smaller screens, mostly mobile phones. */
-@media (max-width: 26rem) {
+@media (max-width: 24rem) {
   :root {
     --font: 14px/140% 'Libre Baskerville', 'DejaVu Serif', 'Bitstream Vera Serif', 'Georgia', serif;
   }
@@ -389,7 +389,7 @@ hr {
 }
 
 hr:before {
-  /* Two fleurons with touching edges.
+  /* Two fleurons with touching edges. 
   content: "☙❧";
   letter-spacing: -4px;
   */
